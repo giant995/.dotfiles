@@ -71,8 +71,6 @@ export NVM_DIR="$HOME/.nvm"
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /usr/local/bin/terraform terraform
 
-eval $(thefuck --alias)
-
 # pnpm
 export PNPM_HOME="/home/jmplourde/.local/share/pnpm"
 case ":$PATH:" in
