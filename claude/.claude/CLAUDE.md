@@ -35,8 +35,10 @@ When writing or analysing code, depending on the language load the appropriate s
 
 - **Language**: 
     - Python: 
-      - Backend: When writting backend Pythond, load the `backend-python` skill.
+      - Backend: When writing backend Python, load the `backend-python` skill.
     - TypeScript (strict mode): load the `typescript-strict` skill.
+      - Testing: When writing tests in TypeScripts, load the `typescript-testing` skill.
+      
 - **State Management**: Prefer immutable patterns
 - **Search**: For syntax-aware or structural matching searches, default to `ast-grep --lang rust -p '<pattern>'` command (or set --lang appropriately) and avoid falling back to text-only tools like rg or grep unless I explicitly request a plain-text search.
 
