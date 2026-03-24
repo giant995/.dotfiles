@@ -1,6 +1,6 @@
 ---
-name: testing
-description: Testing patterns for behavior-driven tests. Use when writing tests or test factories.
+name: typescript-testing
+description: Testing patterns for behavior-driven tests in TypeScript. Use when writing tests or test factories.
 ---
 
 # Testing Patterns
