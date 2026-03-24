@@ -647,6 +647,18 @@ processPayment(userId, amount); // OK
 
 ---
 
+## Browser Automation
+
+Prefer `agent-browser` for web automation. If it is not installed, fall back to other available tools (e.g. `WebFetch`, `curl`, or MCP browser tools). Always try `agent-browser` first.
+
+`agent-browser` core workflow:
+1. `agent-browser open <url>` - Navigate to page
+2. `agent-browser snapshot -i` - Get interactive elements with refs (@e1, @e2)
+3. `agent-browser click @e1` / `fill @e2 "text"` - Interact using refs
+4. Re-snapshot after page changes
+
+Run `agent-browser --help` for all commands.
+
 ## Summary Checklist
 
 When writing TypeScript code, verify:
@@ -663,3 +675,7 @@ When writing TypeScript code, verify:
 - [ ] Result types for expected errors (not exceptions)
 - [ ] Strict mode enabled with all checks passing
 - [ ] Artifacts in correct locations (ports/, types/, schemas/, domain/)
+
+## Resources and References
+
+- [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
