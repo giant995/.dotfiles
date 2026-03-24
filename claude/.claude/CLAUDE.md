@@ -53,7 +53,6 @@ When writing or analysing code, depending on the language load the appropriate s
 - Tests must document expected business behavior
 - No 1:1 mapping between test files and implementation files
 
-For detailed testing patterns and examples, load the `testing` skill.
 For verifying test effectiveness through mutation analysis, load the `mutation-testing` skill.
 
 ## Code Style
